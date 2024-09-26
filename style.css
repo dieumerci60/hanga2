@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+    
+   
+.logo {
+	color: aliceblue;
+    margin: -60px 10px;
+    font-weight: bold;
+}
+.banner{
+	width: 100%;
+	height: 20vh;
+    background-color: black;
+	
+	 
+background-size: cover;	
+background-position: center;
+}
+.navbar ul  {
+	float: right;
+	width: 50%;
+	margin: auto;
+	padding: 35px 0;
+	display: inline-flex;
+	align-items: center;
+	justify-content: space-between;
+
+
+
+}
+ .navbar ul li{
+ 	list-style-type: none;
+ 	display: inline-block;
+ 	margin: 20px; 
+ 	position: relative;
+ 	padding-right: 5px;
+ }
+ .navbar ul li a{
+ 	text-decoration: none;
+ 	color:rgb(255, 252, 252);
+ 	text-transform: uppercase;
+ 	font-weight: bolder;
+
+ }
+.navbar ul li a:hover{
+    color: aqua;
+}
+	
